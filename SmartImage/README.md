@@ -17,10 +17,12 @@ deploy:
 5. build up python package e.g. smartImage
 
 	command: python setup.py sdist
-6. upload the python package to pypi.org
+6. install the upload tool
 
-	command: python setup.py sdist upload -r pypi, 
-please note that pre-registeration has been removed in present pypi upload process
-7. install the costumerized python package
+	command: sudo apt-get install twine
+7. upload the python package to repository: https://upload.pypi.org/legacy/
+
+	command: twine upload dist/*	
+8. install the costumerized python package
 	
 	command: pip install bbk.smartImage

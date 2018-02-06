@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
 		name='bbk.smartImage',
-		version='1.2',
+		version='1.5',
 		author='babiking',
 		author_email='brojackfeely@163.com',
 		description='Smart Image Processing Tools...',
